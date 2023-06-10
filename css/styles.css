@@ -1,0 +1,94 @@
+html,body{
+    text-align: center;
+    margin:0;
+    font-family: 'Averta-Regular', sans-serif;
+
+}
+
+img{
+    width: 10%;
+    margin-top:20px;
+    border-radius: 100%;
+}
+.welcome{
+    margin:8px;
+}
+.name{
+    color:white;
+    background-color: black;
+    margin:0;
+}
+h3{
+    margin:0 auto;
+    padding:0px 20px;
+    color:white;
+
+}
+.web{
+    color:black;
+    background-color:white;
+    margin:0;
+}
+
+        
+.header-list,span{
+    font-weight: bold;
+}
+.list{
+    display: block;
+    color:black;
+    text-decoration: none;
+    padding: 5px;
+    background: #B24592;  /* fallback for old browsers */
+    background: #F09819;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity:70%;
+    border-radius: 15px;
+    width:350px;
+    margin:10px auto;
+}
+
+.list:hover{
+    opacity:100%;
+}
+.list:active{
+    color:white;
+}
+div{
+    margin:25px auto;
+}
+.other-links{
+    margin:0 20px;
+    color:black;
+    text-decoration: none;
+}
+.other-links:hover{
+    color:white;
+}
+.other-links:active{
+    opacity: 60%;
+}
+form{
+    margin: 15px;
+}
+#email{
+    padding:5px;
+}
+#subscribe{
+    background: #D21312;
+    border-style: none;
+    padding:6px 10px;
+    border-radius: 15px;
+    color:white;
+    font-weight: bold;
+}
+#subscribe:active{
+    color:black;
+    
+
+}
+#subscribe:hover{
+    opacity: 70%;
+}
+
